@@ -12,7 +12,7 @@
 # Date: 2019-09-17
 ############################################################
 
-zhu_algorithm <- function (SST, chl){
+func_zhu <- function (SST, chl){
   
   p_CO2_zhu <- (6.31*SST^2) + (61.9*chl^2) - (365.85*SST) - 
     (94.41*chl) + 5715.94
